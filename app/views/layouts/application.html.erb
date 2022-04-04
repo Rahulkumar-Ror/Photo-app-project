@@ -24,7 +24,7 @@
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     <!-- Size should be 57 x 57 pixels -->
     <%= favicon_link_tag "apple-touch-icon-precomposed.png", :rel => "apple-touch-icon-precomposed", :type => "image/png" %>
-
+    <%= javascript_include_tag " https://js.stripe.com/v2/" %>
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag "favicon.ico", :rel => "shortcut icon" %>
@@ -93,7 +93,7 @@
       </div><!--/row-->
 
       <footer>
-        <p>&copy; Company 2022</p>
+        <p>&copy; Simform 2022</p>
       </footer>
 
     </div> <!-- /container -->

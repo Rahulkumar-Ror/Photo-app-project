@@ -230,6 +230,7 @@ GEM
     sqlite3 (1.4.2)
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
+    stripe (5.48.0)
     strscan (3.0.1)
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
@@ -289,6 +290,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  stripe
   therubyracer
   turbo-rails
   twitter-bootstrap-rails
