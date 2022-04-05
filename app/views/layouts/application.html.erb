@@ -58,13 +58,9 @@
 <% if current_user %>
 
 <li class="col-md-8 user-name">
-
 <%= link_to ('<i class="fa fa-user"></i> ' + truncate(current_user.email, length: 25)).html_safe, edit_user_registration_path, title: "Edit Profile" %>
-
 </li>
-
 <li class="col-md-1"> </li>
-
 <li class="col-md-3 logout"><%= link_to("Logout", destroy_user_session_path, class: "btn btn-xs btn-danger", title: "Logout", :method => :delete) %></li>
 <% else %>
 
@@ -77,8 +73,6 @@
 <% end %>
 
 </ul>
-
-
         </div>
       </div>
     </div>
@@ -93,7 +87,8 @@
       </div><!--/row-->
 
       <footer>
-        <p>&copy; Simform 2022</p>
+        <p>&copy; Simform 2022  &nbsp; <%= image_tag "sim.png", width: "80px", height: "30px" %></p>
+        
       </footer>
 
     </div> <!-- /container -->
